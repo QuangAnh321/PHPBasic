@@ -1,5 +1,5 @@
 <?php
-    require ("config/database.php");
+    require("config/database.php");
     
 
     // Query statement
@@ -21,7 +21,7 @@
 
 <?php include("inc/header.php"); ?>
     <div class="container">
-        <h1>Posts</h1>
+        <h1 class="post-title">Posts</h1>
             <div class="card-deck">
                 <?php foreach($posts as $post) : ?>
                     <div class="card bg-light">
