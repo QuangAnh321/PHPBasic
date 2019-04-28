@@ -22,7 +22,7 @@
 <?php include("inc/header.php"); ?>
     <div class="container">
         <h1 class="post-title">Posts</h1>
-            <div class="card-deck">
+            <div class="card-columns">
                 <?php foreach($posts as $post) : ?>
                     <div class="card bg-light">
                         <h5 class="card-title"><?php echo $post["post_title"]; ?></h5>
