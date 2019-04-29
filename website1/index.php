@@ -25,6 +25,7 @@
             <div class="card-columns">
                 <?php foreach($posts as $post) : ?>
                     <div class="card bg-light">
+                        <img class="card-img-top" src="<?php echo $post["image_dir"]; ?>" alt="Card image cap">
                         <h5 class="card-title"><?php echo $post["post_title"]; ?></h5>
                         <small class="card-subtitle text-muted">created on <?php echo $post["created_at"]; ?> by
                         <?php echo $post["post_author"]; ?></small>
